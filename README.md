@@ -1,16 +1,63 @@
-# React + Vite
+# Nexus Social 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nexus is a high-performance, modern social media platform built with the latest bleeding-edge technologies. It features a responsive UI, efficient state management, and robust data validation.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Core:** [React 19](https://react.dev/)
+- **Build Tool:** [Vite 7](https://vite.dev/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) & [Flowbite](https://flowbite.com/)
+- **Data Fetching:** [TanStack Query v5](https://tanstack.com/query/latest) (React Query)
+- **Routing:** [React Router 7](https://reactrouter.com/)
+- **Forms:** [React Hook Form](https://react-hook-form.com/) with [Zod](https://zod.dev/) validation
+- **HTTP Client:** [Axios](https://axios-http.com/)
+- **Icons:** [Font Awesome 7](https://fontawesome.com/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🚀 **Fast Refresh:** Instant feedback during development using Vite 7.
+- 🎨 **Modern UI:** Clean and dark-mode ready components using Tailwind v4.
+- 📡 **Efficient Fetching:** Automatic caching and synchronization with TanStack Query.
+- 🔒 **Type Safety:** Schema-based validation for all forms and API responses via Zod.
+- 📱 **Responsive:** Fully optimized for mobile, tablet, and desktop views.
 
-## Expanding the ESLint configuration
+## 🚀 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Prerequisites
+
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+
+1.  **Clone the repository**
+
+    ```bash
+    git clone https://github.com/your-username/nexus-social.git
+    cd nexus-social
+    ```
+
+2.  **Install dependencies**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Set up environment variables**
+    Create a `.env` file in the root directory and add your API configuration:
+
+    ```env
+    VITE_API_BASE_URL=https://api.example.com
+    ```
+
+4.  **Start the development server**
+    ```bash
+    npm run dev
+    ```
+
+## 📜 Scripts
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run lint`: Runs ESLint to check for code quality issues.
+- `npm run preview`: Previews the production build locally.
